@@ -8,6 +8,11 @@
     }
   });
 
+   AOS.init({
+    duration: 800, 
+    once: false, 
+  });
+
   const tabs = document.querySelectorAll('.tab');
     const testimonialContent = document.getElementById('testimonial-content');
 
