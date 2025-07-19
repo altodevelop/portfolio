@@ -133,11 +133,13 @@ p {
 }
 .skill-bar {
   background: #a8a2a2;
-  height: 25px;
+  height: 15px;
   border-radius: 8px;
   overflow: hidden;
   margin-top: 5px;
   width: 100%;
+  font-size: 12px;
+  display: flex;
 }
 
 .skill-bar .fill {
@@ -146,9 +148,10 @@ p {
   color: white;
   text-align: right;
   padding-right: 10px;
-  line-height: 25px;
+  line-height: 15px;
   border-radius: 8px 0 0 8px;
   transition: width 0.5s ease-in-out;
+
 }
 .greeting {
   opacity: 0;
