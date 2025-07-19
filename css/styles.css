@@ -26,7 +26,7 @@ body {
 }
 
 .header.scrolled {
-  background-color: #8871dd;
+  background-color:#9292e4;
   box-shadow: 0 2px 5px black;
 }
 
@@ -334,11 +334,14 @@ body.dark {
 @media screen and (max-width: 662px) {
   .header {
     position: relative;
+    position: sticky;
+    top: 0;
   }
   .humbuger {
     display: block;
     outline: none;
   }
+
   .menu {
     display: none;
     flex-direction: column;
