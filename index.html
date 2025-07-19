@@ -28,16 +28,16 @@
         />
         <h1 style="font-size: 20px">Dieudonne</h1>
       </div>
-      <div class="links">
-        <ul>
+      
+        <ul class="menu" id="menu">
           <a href="/"><li>Home</li></a>
           <a href="about.html"><li>About</li></a>
          <a href="More.html"> <li>More</li></a>
         </ul>
-      </div>
+  
       <div>
         <button class="btn">Contact Us</button>
-        <i class="uil uil-bars humbuger"></i>
+        <button id="button" style="padding: 4px 10px; background-color:#9292e4;border: none; color: white;font-size: 16px;"> <i class="uil uil-bars humbuger"></i></button>
       </div>
     </div>
     <div class="hero" data-aos="fade-up">
@@ -202,9 +202,10 @@
       
       <div class="footer-links">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact us</li>
+          <a href="/">  <li>Home</li></a>
+        <a href=""><li>About</li></a>
+          <a href=""><li>Contact us</li></a>
+          
         </ul>
       </div>
       <div>
@@ -219,8 +220,8 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
-    duration: 800, // animation duration in ms
-    once: false,    // whether animation should happen only once - while scrolling down
+    duration: 800, 
+    once: false, 
   });
 </script>
  <script src="./js/app.js"></script>
