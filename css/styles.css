@@ -81,6 +81,7 @@ ul li {
   margin-top: 40px;
   box-shadow: 0px 0px 5px;
   transition: transform 0.3s ease;
+  color:  black;
 }
 .card:hover {
   transform: translateY(-10px);
@@ -271,10 +272,30 @@ a {
 .humbuger {
   display: none;
 }
+.toogle{
+  background-color:#9292e4;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
-@media screen and (max-width: 600px) {
+body.dark {
+     color: white;
+     background-color:#1a1919 ;
+     color: white
+    }
+    .onSmall{
+      display: flex;
+      gap: 4px;
+    }
+@media screen and (max-width: 662px) {
   .header {
     position: relative;
+  }
+   .humbuger{
+    display: block;
   }
   .menu {
     display: none;
@@ -292,9 +313,6 @@ a {
       }
   .header .btn {
     display: none;
-  }
-  .humbuger {
-    display: block;
   }
   .image {
     display: none;
@@ -327,10 +345,11 @@ a {
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 663px) and (max-width: 900px) {
   .header .links ul li {
     display: block;
   }
+ 
   .logo h1 {
     display: none;
   }
@@ -354,14 +373,14 @@ a {
     margin-top: 10px;
   }
 }
-@media (min-width: 769px) and (max-width: 992px) {
+/* @media (min-width: 769px) and (max-width: 992px) {
   .cards {
     flex-wrap: wrap;
   }
   .card {
     gap: 20px;
   }
-}
+} */
 
 @media (max-width: 385px) {
   .intouch {

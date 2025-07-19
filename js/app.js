@@ -44,3 +44,10 @@
     menuButton.addEventListener('click',()=>{
       links.classList.toggle('active');
     })
+
+    const dark = document.getElementById('dark');
+    const body = document.body;
+
+     dark.addEventListener('click', () => {
+      body.classList.toggle('dark');
+    });
