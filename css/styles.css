@@ -8,6 +8,7 @@ body {
   margin: 0px 10%;
   font-size: 20px;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -26,8 +27,36 @@ body {
 }
 
 .header.scrolled {
-  background-color:#9292e4;
+  background-color: #9292e4;
   box-shadow: 0 2px 5px black;
+}
+.about-content {
+  max-width: 90%;
+  width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px;
+  color: black;
+}
+@media (max-width: 768px) {
+  .about-content {
+    font-size: 20px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    font-size: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
 }
 
 .logo {
